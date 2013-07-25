@@ -3,7 +3,7 @@
 requirejs.config({
     paths: {
         'jquery': 'components/jquery/jquery',
-        '{%= name%}': 'components/{%= name%}'
+        '{%= name%}': '{%= name%}'
     }
 });
 
